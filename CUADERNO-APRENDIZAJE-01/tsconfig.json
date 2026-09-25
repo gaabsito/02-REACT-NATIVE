@@ -1,0 +1,23 @@
+{
+  "extends": "../cuaderno-rn/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "react-native": [
+        "../cuaderno-rn/node_modules/react-native"
+      ],
+      "react": [
+        "../cuaderno-rn/node_modules/@types/react"
+      ],
+      "react/*": [
+        "../cuaderno-rn/node_modules/@types/react/*"
+      ]
+    },
+    "typeRoots": [
+      "../cuaderno-rn/node_modules/@types"
+    ]
+  },
+  "include": [
+    "EJERCICIO-*/**/*.ts",
+    "EJERCICIO-*/**/*.tsx"
+  ]
+}
